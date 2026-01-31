@@ -1,0 +1,26 @@
+{
+  "name": "singlish-translator-tests",
+  "version": "1.0.0",
+  "description": "Automated tests for Singlish to Sinhala translator",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "testing",
+    "singlish",
+    "sinhala"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "@types/node": "^25.1.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3"
+  }
+}
